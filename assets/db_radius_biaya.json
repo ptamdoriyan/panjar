@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "district_id": 7172010,
+    "name": "PACEDA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 2,
+    "district_id": 7172010,
+    "name": "MADIDIR UNET",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 3,
+    "district_id": 7172010,
+    "name": "MADIDIR URE",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 4,
+    "district_id": 7172010,
+    "name": "MADIDIR WERU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 5,
+    "district_id": 7172010,
+    "name": "KADOODAN",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 6,
+    "district_id": 7172010,
+    "name": "WANGURER BARAT",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 7,
+    "district_id": 7172010,
+    "name": "WANGURER TIMUR",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 8,
+    "district_id": 7172010,
+    "name": "WANGURER UTARA",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 9,
+    "district_id": 7172011,
+    "name": "TANJUNG MERAH",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 10,
+    "district_id": 7172011,
+    "name": "SAGERAT",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 11,
+    "district_id": 7172011,
+    "name": "MANEMBO NEMBO ATAS",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 12,
+    "district_id": 7172011,
+    "name": "MANEMBO NEMBO",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 13,
+    "district_id": 7172011,
+    "name": "SAGERAT WERU SATU",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 14,
+    "district_id": 7172011,
+    "name": "SAGERAT WERU DUA",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 15,
+    "district_id": 7172011,
+    "name": "TENDEKI",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 16,
+    "district_id": 7172011,
+    "name": "MANEMBO-NEMBO TENGAH",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 17,
+    "district_id": 7172012,
+    "name": "GIRIAN WERU SATU",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 18,
+    "district_id": 7172012,
+    "name": "GIRIAN BAWAH",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 19,
+    "district_id": 7172012,
+    "name": "WANGURER",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 20,
+    "district_id": 7172012,
+    "name": "GIRIAN INDAH",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 21,
+    "district_id": 7172012,
+    "name": "GIRIAN WERU DUA",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 22,
+    "district_id": 7172012,
+    "name": "GIRIAN ATAS",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 23,
+    "district_id": 7172012,
+    "name": "GIRIAN PERMAI",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 24,
+    "district_id": 7172021,
+    "name": "PASIRPANJANG",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 25,
+    "district_id": 7172021,
+    "name": "PAUDEAN",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 26,
+    "district_id": 7172021,
+    "name": "BATULUBANG",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 27,
+    "district_id": 7172021,
+    "name": "DORBOLAANG",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 28,
+    "district_id": 7172021,
+    "name": "PANCURAN",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 29,
+    "district_id": 7172021,
+    "name": "PAPUSUNGAN",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 30,
+    "district_id": 7172021,
+    "name": "KELAPA DUA",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 31,
+    "district_id": 7172022,
+    "name": "MAWALI",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 32,
+    "district_id": 7172022,
+    "name": "PINTUKOTA",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 33,
+    "district_id": 7172022,
+    "name": "BATUKOTA",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 34,
+    "district_id": 7172022,
+    "name": "GUNUNG WOKA",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 35,
+    "district_id": 7172022,
+    "name": "POSOKAN",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 36,
+    "district_id": 7172022,
+    "name": "MOTTO",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 37,
+    "district_id": 7172022,
+    "name": "LIRANG",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 38,
+    "district_id": 7172022,
+    "name": "BINUANG",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 39,
+    "district_id": 7172022,
+    "name": "KAREKO",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 40,
+    "district_id": 7172022,
+    "name": "NUSU",
+    "radius": 4,
+    "biaya": 195000
+  },
+  {
+    "id": 41,
+    "district_id": 7172030,
+    "name": "AERTEMBAGA SATU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 42,
+    "district_id": 7172030,
+    "name": "TANDU RUSA",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 43,
+    "district_id": 7172030,
+    "name": "MAKAWIDEY",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 44,
+    "district_id": 7172030,
+    "name": "PINANGUNIAN",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 45,
+    "district_id": 7172030,
+    "name": "PETETEN SATU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 46,
+    "district_id": 7172030,
+    "name": "PETETEN DUA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 47,
+    "district_id": 7172030,
+    "name": "WINENET SATU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 48,
+    "district_id": 7172030,
+    "name": "WINENET DUA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 49,
+    "district_id": 7172030,
+    "name": "KASAWARI",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 50,
+    "district_id": 7172030,
+    "name": "AERTEMBAGA DUA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 51,
+    "district_id": 7172031,
+    "name": "PAKADOODAN",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 52,
+    "district_id": 7172031,
+    "name": "BITUNG BARAT SATU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 53,
+    "district_id": 7172031,
+    "name": "BITUNG BARAT DUA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 54,
+    "district_id": 7172031,
+    "name": "KAKENTURAN SATU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 55,
+    "district_id": 7172031,
+    "name": "KAKENTURAN DUA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 56,
+    "district_id": 7172031,
+    "name": "BITUNG TENGAH",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 57,
+    "district_id": 7172031,
+    "name": "BITUNG TIMUR",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 58,
+    "district_id": 7172031,
+    "name": "PATETEN TIGA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 59,
+    "district_id": 7172040,
+    "name": "KUMERSOT",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 60,
+    "district_id": 7172040,
+    "name": "PINOKALAN",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 61,
+    "district_id": 7172040,
+    "name": "TEWAAN",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 62,
+    "district_id": 7172040,
+    "name": "DANOWUDU",
+    "radius": 1,
+    "biaya": 100000
+  },
+  {
+    "id": 63,
+    "district_id": 7172040,
+    "name": "DUA SUDARA",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 64,
+    "district_id": 7172040,
+    "name": "APELA DUA",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 65,
+    "district_id": 7172040,
+    "name": "APELA SATU",
+    "radius": 2,
+    "biaya": 110000
+  },
+  {
+    "id": 66,
+    "district_id": 7172040,
+    "name": "KARONDORAN",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 67,
+    "district_id": 7172040,
+    "name": "PINASUNGKULAN",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 68,
+    "district_id": 7172040,
+    "name": "BATU PUTIH ATAS",
+    "radius": 3,
+    "biaya": 150000
+  },
+  {
+    "id": 69,
+    "district_id": 7172040,
+    "name": "BATU PUTIH  BAWAH",
+    "radius": 3,
+    "biaya": 150000
+  }
+]
