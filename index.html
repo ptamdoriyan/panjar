@@ -92,93 +92,24 @@
 
         <div class="row content justify-content-center align-items-center">
           <div class="col-lg-6">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button bg-dark text-white " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    e-court Cerai Talak (diajukan Suami)
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                   
-                    <form> <!-- form ecourt talak start -->
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Alamat Termohon (istri)</label>
-                        <select class="form-select form-select-sm alamat-tinggal-lawan" id="ecourttalak" aria-label=".form-select-sm example">
-                          <option selected>--Pilih Alamat--</option>
-                          <option value="1">Daerah Kota Bitung</option>
-                          <option value="2">Luar Daerah Kota Bitung</option>
-                        </select>
-                      </div>
 
-                      <div id="sisipan">
-
-                      </div>
-                      <div id="kelurahan"></div>
-                     
-                      <button type="button" class="btn btn-primary mt-3" id="hitungEcourtTalak" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Hitung</button>
-                    </form> <!--Form ecourt talak end-->
-                    
-                  </div>
-                </div>
+            <form> <!-- form start -->
+              <div class="mb-3">
+        
+                <select class="form-select form-select-sm alamat-tinggal-lawan" id="jenisgugatan" aria-label=".form-select-sm example">
+                  <option selected>--Pilih Jenis Gugatan--</option>
+                  <option value="1">E-court Cerai Talak (diajukan Suami)</option>
+                  <option value="2">E-court Cerai Gugat (diajukan Istri)</option>
+                  <option value="3">Cerai Talak (diajukan Istri)</option>
+                  <option value="4"> Cerai Gugat (diajukan Istri)</option>
+                </select>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    e-court Cerai Gugat (diajukan Istri)
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                   
-                    <form> <!-- form ecourt gugat start -->
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Alamat Termohon (istri)</label>
-                        <select class="form-select form-select-sm alamat-tinggal-lawan" id="ecourtGugat" aria-label=".form-select-sm example">
-                          <option selected>--Pilih Alamat--</option>
-                          <option value="1">Daerah Kota Bitung</option>
-                          <option value="2">Luar Daerah Kota Bitung</option>
-                        </select>
-                      </div>
+              <div class="mb-3" id="pemohon"></div>
+              <div class="mb-3" id="termohon"></div>
+             
+              <button type="button" class="btn btn-primary mt-3" id="hitungEcourtTalak" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Hitung</button>
+            </form> <!--Form end-->
 
-                      <div id="sisipanEcourtGugat">
-
-                      </div>
-                      <div id="kelurahanEcourtGugat"></div>
-                      <button type="submit" class="btn btn-primary mt-3">Hitung</button>
-                    </form> <!--Form ecourt gugat end-->
-                    
-
-
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Cerai Talak (diajukan Suami)
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                    Cerai Gugat (diajukan Istri)
-                  </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           
         </div>
