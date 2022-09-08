@@ -72,22 +72,6 @@ function addselectkelurahan (kecamatan, id) {
 }//end function addselectkelurahan
 
 
-function omdbapi () {
-    $.ajax({
-        type: "get",
-        url: "http://omdbapi.com",
-        data:{
-            'apikey' : 'dca61bcc',
-            's' : 'harry'
-        },
-        dataType: "json",
-        success: function (response) {
-            console.log(response);
-        }
-    });
-}
-
-
 //||||||||||||||||||||||||
 
 // pilih jenis gugatan
@@ -148,5 +132,11 @@ $('#pemohon').on('change','.datakecamatan', function () {
 
 //end pilihan untuk div pemohon
 
+//tombol hitungEcourtTalak
+$('#hitungEcourtTalak').on('click',  function () {
+  let hasil =  $('#pilihlurah').val();
+  console.log(hasil);
+});
+//end tombol hitungEcourtTalak
 
 
