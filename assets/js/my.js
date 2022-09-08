@@ -53,7 +53,6 @@ function addselectkelurahan (kecamatan, id) {
             'idkecamatan' : kecamatan
         },
         success: function (response) {  
-            console.log(`hasil dari kelurahan = ${response}`);
             $(id).append(`
             <label for="exampleInputEmail1" class="form-label">Pilih Kelurahan</label>
                 <select class="form-select form-select-sm" id="pilihlurah" aria-label=".form-select-sm example">
@@ -112,7 +111,6 @@ $('#jenisgugatan').on('change', function () {
 $('#pemohon').on('change','.alamat-tinggal', function () {
     $('.kecamatan').html('');
     let alamatTinggal = $('.alamat-tinggal').val();
-    console.log(`alamat-tinggal = ${alamatTinggal}`);
     if (alamatTinggal == 'dalam') {
         addselectkecamatan('.kecamatan');
         $('.kecamatan').append(`<div class='kelurahan'></div>`);
@@ -125,7 +123,6 @@ $('#pemohon').on('change','.alamat-tinggal', function () {
 $('#pemohon').on('change','.datakecamatan', function () {
     $('.kelurahan').html('');
     let alamatkecamatan = $('.datakecamatan').val();
-    console.log(`alamat-kecamatan = ${alamatkecamatan}`);
     addselectkelurahan(alamatkecamatan, '.kelurahan');
     // omdbapi();
 });//end pilih kecamatan
@@ -135,7 +132,6 @@ $('#pemohon').on('change','.datakecamatan', function () {
 //tombol hitungEcourtTalak
 $('#hitungEcourtTalak').on('click',  function () {
   let hasil =  $('#pilihlurah').val();
-  console.log(hasil);
 });
 //end tombol hitungEcourtTalak
 
