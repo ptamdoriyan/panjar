@@ -47,7 +47,7 @@ function addselectkecamatan(id) {
 function addselectkelurahan (kecamatan, id) {
     $.ajax({
         type: "get",
-        url: `https://dev.pa-bitung.go.id/bepanjar`,
+        url: `https://dev.pa-bitung.go.id/bepanjar/`,
         dataType: "json",
         data : {
             'idkecamatan' : kecamatan
