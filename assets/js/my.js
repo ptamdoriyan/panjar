@@ -47,7 +47,7 @@ function addselectkecamatan(id) {
 function addselectkelurahan (kecamatan, id) {
     $.ajax({
         type: "get",
-        url: `https://bepanjar.pa-bitung.go.id/radius/kelurahan/`,
+        url: `https://dev.pa-bitung.go.id/bepanjar`,
         dataType: "json",
         data : {
             'idkecamatan' : kecamatan
@@ -141,7 +141,7 @@ $('#pemohon').on('change','.datakecamatan', function () {
     $('.kelurahan').html('');
     let alamatkecamatan = $('.datakecamatan').val();
     console.log(`alamat-kecamatan = ${alamatkecamatan}`);
-    // addselectkelurahan(alamatkecamatan, '.,kelurahan');
+    addselectkelurahan(alamatkecamatan, '.,kelurahan');
     omdbapi();
 });//end pilih kecamatan
 
