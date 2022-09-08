@@ -48,11 +48,12 @@ function addselectkelurahan (kecamatan, id) {
     $.ajax({
         type: "get",
         url: `https://dev.pa-bitung.go.id/bepanjar/`,
-        dataType: "json",
+        dataType: "JSON",
         data : {
             'idkecamatan' : kecamatan
         },
         success: function (response) {  
+            console.log(`hasil dari kelurahan = ${response}`);
             $(id).append(`
             <label for="exampleInputEmail1" class="form-label">Pilih Kelurahan</label>
                 <select class="form-select form-select-sm" id="pilihlurah" aria-label=".form-select-sm example">
@@ -141,8 +142,8 @@ $('#pemohon').on('change','.datakecamatan', function () {
     $('.kelurahan').html('');
     let alamatkecamatan = $('.datakecamatan').val();
     console.log(`alamat-kecamatan = ${alamatkecamatan}`);
-    addselectkelurahan(alamatkecamatan, '.,kelurahan');
-    omdbapi();
+    addselectkelurahan(alamatkecamatan, '.kelurahan');
+    // omdbapi();
 });//end pilih kecamatan
 
 //end pilihan untuk div pemohon
